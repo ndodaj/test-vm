@@ -33,11 +33,11 @@ services:
       - postgis-db-1
 
 
-  webgis:
+  webgis-1:
 #    image: 'docker-spring-boot-postgres:latest'
     build:
       context: .
-    container_name: webgis
+    container_name: webgis-1
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgis-db-1:5432/postgis-test
       SPRING_DATASOURCE_USERNAME: postgres
