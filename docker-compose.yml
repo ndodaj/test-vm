@@ -16,9 +16,9 @@ services:
 #      - postgres_data:/var/lib/postgresql/data
       - postgis_data:/var/lib/postgresql/data
 
-  geoserver:
+  geoserver-1:
     image: oscarfonts/geoserver:latest
-    container_name: geoserver
+    container_name: geoserver-1
 #    environment:
 #      - GEOSERVER_ADMIN_PASSWORD=geoserver
     ports:
