@@ -32,7 +32,7 @@ springdoc:
 
 server:
   address:
-  port: 8098
+  port: 9000
 
 geoserver:
   username: admin
